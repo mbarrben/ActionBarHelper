@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Your app theme needs to be a sherlock one -->
+    <style name="AppTheme" parent="@style/Theme.Sherlock.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/ActionBar.Transparent</item>
+
+        <!-- Set action bar overlay true -->
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="ActionBar.Transparent" parent="@style/Widget.Sherlock.Light.ActionBar.Solid.Inverse">
+
+        <!-- Make your action bar background transparent -->
+        <item name="background">@android:color/transparent</item>
+    </style>
+
+</resources>
