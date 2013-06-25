@@ -1,8 +1,10 @@
-package com.mbarrben.actionbarhelper;
+package com.mbarrben.actionbarhelper.demo;
 
 import android.os.Bundle;
 
 import com.actionbarsherlock.app.SherlockActivity;
+import com.mbarrben.actionbarhelper.ActionBarHelper;
+import com.mbarrben.actionbarhelper.demo.R;
 
 public class MainActivity extends SherlockActivity {
 
